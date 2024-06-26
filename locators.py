@@ -32,9 +32,9 @@ class Locators:
     SAUCES_BUTTON = (By.XPATH, '//span[text()="Соусы"]/parent::div')
     # Кнопка "Начинки"
     FILLINGS_BUTTON = (By.XPATH, '//span[text()="Начинки"]/parent::div')
-    # 1-на из начинок
-    FILLING = (By.XPATH, '//p[text()="Мясо бессмертных моллюсков Protostomia"]')
-    # 1 из соусов
-    SAUCE = (By.XPATH, '//p[text()="Соус Spicy-X"]')
-    # 1-на из булок
-    BUN = (By.XPATH, '//p[text()="Флюоресцентная булка R2-D3"]')
+    # Кнопка "Начинки" после нажатия
+    PRESSED_FILLINGS_BUTTON = (By.XPATH, '//div[contains(@class, "tab_tab_type_current")]/span[text()="Начинки"]')
+    # Кнопка "Соусы" после нажатия
+    PRESSED_SAUCES_BUTTON = (By.XPATH, '//div[contains(@class, "tab_tab_type_current")]/span[text()="Соусы"]')
+    # Кнопка "Булки" после нажатия
+    PRESSED_BUNS_BUTTON = (By.XPATH, '//div[contains(@class, "tab_tab_type_current")]/span[text()="Булки"]')

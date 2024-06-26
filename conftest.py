@@ -32,3 +32,4 @@ def login(driver):
     driver.find_element(*Locators.LOGIN_BUTTON).click()
     return driver
 
+
